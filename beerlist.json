@@ -1,0 +1,158 @@
+[
+{
+    "model": "rankings.brewery",
+    "pk": 1,
+    "fields": {
+        "name": "Brewers Art"
+    }
+},
+{
+    "model": "rankings.brewery",
+    "pk": 2,
+    "fields": {
+        "name": "Monument City Brewing Co."
+    }
+},
+{
+    "model": "rankings.brewery",
+    "pk": 3,
+    "fields": {
+        "name": "Raven Beer"
+    }
+},
+{
+    "model": "rankings.brewery",
+    "pk": 4,
+    "fields": {
+        "name": "Full Tilt Brewing Co."
+    }
+},
+{
+    "model": "rankings.brewery",
+    "pk": 5,
+    "fields": {
+        "name": "Waverly Brewing Company"
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 1,
+    "fields": {
+        "name": "Resurrection",
+        "brewery": 1,
+        "style": "Brown Ale",
+        "abv": "7.00",
+        "description": "The seven percent solution. A delightfully full-bodied yet easy to drink abbey brown ale that has become our flagship brand, thanks to Baltimore's loyalty."
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 2,
+    "fields": {
+        "name": "Beazly",
+        "brewery": 1,
+        "style": "American Belgian",
+        "abv": "7.25",
+        "description": "Our answer to the Belgian \u00abdevil\u00bb beers (i.e. Duvel, etc.). Both rich and dry, this beer is all too easy to consume in large quantities. Hopped with Styrian Goldings"
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 3,
+    "fields": {
+        "name": "Birdhouse",
+        "brewery": 1,
+        "style": "Pale Ale",
+        "abv": "5.00",
+        "description": "The boys of summer are back home in Baltimore, and we thought we\u2019d get you ready with this nice pale ale"
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 4,
+    "fields": {
+        "name": "Alice's Pills",
+        "brewery": 5,
+        "style": "Pilsner",
+        "abv": "6.20",
+        "description": "Welcome in Springtime with Waverly's first-ever lager! If you go chasing rabbits, you know you're gonna fall in love with this hefty German-Styled Pilsner. Being deceptively easy-drinking and crisp, we took advice from a caterpillar and dry-hopped it with citrusy German hops."
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 5,
+    "fields": {
+        "name": "Kingpin",
+        "brewery": 5,
+        "style": "Pineapple Pale Ale",
+        "abv": "5.50",
+        "description": "No phone, no lights. no motor cars! Not a single luxury. except this summery pale ale dosed with a boatload of 100% pineapple juice. With just enough hops to keep it honest, this quaflable summery offering begs for a hammock."
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 6,
+    "fields": {
+        "name": "Dubbel Clutch",
+        "brewery": 5,
+        "style": "Belgian Dubbel",
+        "abv": "7.60",
+        "description": "Made with molasses, brown sugar and aromatic malt, this ale masks its alcohol level well with a bit of caramel and dark fruit overtones."
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 7,
+    "fields": {
+        "name": "Local Oyster",
+        "brewery": 5,
+        "style": "Real Oyster Stout",
+        "abv": "5.30",
+        "description": "A collaboration with cur friends at The Local Oyster. We started with a toasty, dark stout and dosed it with the shells and meat of real Maryland oysters! Try it on Nitro-pour while it lasts for a smooth and slightly oceanic experience. CONTAINS SHELLFISH!!."
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 8,
+    "fields": {
+        "name": "Penchant Pills",
+        "brewery": 2,
+        "style": "Traditional German Czech Pilser",
+        "abv": "4.50",
+        "description": "Clean, crisp, flavorful, and easy drinking."
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 9,
+    "fields": {
+        "name": "American Brown Ale",
+        "brewery": 2,
+        "style": "American Brown Ale",
+        "abv": "6.00",
+        "description": "Dark in color, light in taste\r\n\r\nCaramel, chocolate and roasted coffee"
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 10,
+    "fields": {
+        "name": "Battle IPA",
+        "brewery": 2,
+        "style": "American IPA",
+        "abv": "7.50",
+        "description": "Hoppy, piney with a slight citrus and spicy floral notes\r\n\r\nStarts with sweetness from malts"
+    }
+},
+{
+    "model": "rankings.beer",
+    "pk": 11,
+    "fields": {
+        "name": "Rooftop",
+        "brewery": 2,
+        "style": "Pale Ale",
+        "abv": "5.00",
+        "description": "With fresh pineapple and mint added throughout the process\r\n\r\nLight and refreshing."
+    }
+}
+]

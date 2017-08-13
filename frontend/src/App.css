@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.list{
+  max-width:70%;
+  margin:0 auto;
+}
+
+.list .tr .td{
+  font-size:14px;
+}
+
+.table {
+   display: table;
+   border: 1px solid #40A1F5;
+   width:100%;
+}
+.table .th {
+   display: table-row;
+   background-color: #40A1F5;
+   color: #fff;
+   font-weight: bold;
+}
+
+.table .tr:nth-child(odd) {
+ background-color: #F9F9F9;
+}
+
+.table .tr{
+  display: table-row;
+  border-bottom: 1px solid #000;
+}
+
+.clickable:hover{
+  cursor:pointer;
+  background-color: #ccc !important;
+}
+
+.table .td {
+  display: table-cell;
+  padding: 15px;
+  border-bottom: 1px solid #40A1F5;
+}
+.table .tr:last-child .td{
+  border: 0;
+}
+
+
+
+.product_info{
+  display: table;
+  width:100%;
+}
+
+.product_info .tr{
+  display: table-row;
+}
+
+.product_info .td {
+  display: table-cell;
+  padding: 15px;
+  border-bottom: 1px solid #40A1F5;
+  font-size:14px;
+  text-align: left;
+}
+
+
+.product_reviews{
+  display: inline-block;
+  width:45%;
+  margin:10px;
+  float:left;
+}
+
+.product_reviews .td:nth-of-type(4){
+  min-width:100px;
+}
+
+.product_review_form{
+  display: inline-block;
+  width:40%;
+  margin:10px;
+}
+
+.container{
+  width:90%;
+  margin:0 auto;
+}
+
+.product_review_form{
+  text-align: left;
+}
+.product_review_form textarea{
+  margin-top:10px;
+  width:500px;
+  height:300px;
+}
+.product_review_form input, select{
+  margin-bottom:20px;
+}
+.product_review_form label{
+  width:320px;
+  float:left;
+  text-align:left;
+  display:inline;
+}
+
+.product_review_form br{
+  clear: left;
+}
